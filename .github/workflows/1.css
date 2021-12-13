@@ -1,0 +1,126 @@
+.all {
+    width: 1024px;
+    /* width: 65%; */
+    height: 1300px;
+    margin: 5vh auto;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: rgb(121 146 185 / 54%) 0px 2px 4px 0px;
+    padding: 0;
+}
+
+.head {
+    width: 70px;
+    height: 70px;
+    border: 2.5px #f1f1f1 solid;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: rgb(121 146 185 / 54%) 0px 2px 3px 0px;
+}
+
+.head:hover {
+    width: 70px;
+    height: 70px;
+    border: 2.5px #f1f1f1 solid;
+    border-radius: 50%;
+    margin-right: 20px;
+    transform: scale(1.8);
+    transition: transform 1.5;
+    box-shadow: rgb(121 146 185 / 54%) 0px 2px 3px 0px;
+}
+
+strong {
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #494949;
+    margin: 0 3px;
+    padding: 3px 8px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f1f1f1;
+}
+
+​ ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.page {
+    width: 1024px;
+    min-height: 1440px;
+}
+
+.top {
+    width: 100%;
+    height: 300px;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    background: #00b38a;
+    color: white;
+    border-radius: 4px 4px 0 0;
+    background: linear-gradient(-45deg, #3CB371 0%, #00b38a 100%);
+}
+
+.top-title {
+    width: 100%;
+    border-bottom: 2px solid #00a982;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.name {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.name2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.work {
+    font-size: 24px;
+    position: absolute;
+    right: 20px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.top-info {
+    float: left;
+}
+
+.info {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin: 8px 0 0 0;
+}
+
+.top-phone {
+    float: right;
+    padding: 0;
+    text-align: right;
+}
+
+.top-p {
+    margin: 8px 0 0 0;
+}
+
+.phone-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: baseline;
+    margin-left: 5px;
+}
